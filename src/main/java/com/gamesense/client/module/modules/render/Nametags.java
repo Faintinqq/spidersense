@@ -360,6 +360,6 @@ public class Nametags extends Module {
             string = string.substring(10, charCount);
         }
 
-        return string.substring(0, 1).toUpperCase() + string.substring(1) + ColorUtil.settingToTextFormatting(levelColor) + ((level > 1) ? level : "");
+        return string.substring(0, 1).toUpperCase() + string.substring(1) + ((level > 1) ? level : "");
     }
 }
